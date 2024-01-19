@@ -4,6 +4,7 @@ let body = document.querySelector("body");
 let cards = document.querySelectorAll(".card");
 
 function darkMode() {
+  modeBTN.classList.toggle("darkBTN");
   swtiched.classList.toggle("switchDark");
   body.classList.toggle("darkMode");
   cards.forEach((card) => {
